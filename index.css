@@ -1,0 +1,124 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    background-image: url("images/trackmania.jpg");
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Mechanics {
+    text-align: center;
+}
+
+.Info {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background-color: #1d2021;
+
+    height: 20%;
+    width: 70%;
+
+    margin-left: 12%;
+    padding: 20px; 
+
+    border-radius: 5px;
+
+}
+
+.TopBar {
+    margin-top: 0px;
+
+    width: 100%;
+    height: 57px;
+
+    background-color: #3c3836;
+}
+
+.Content {
+    position: absolute;
+
+    width: 50%;
+    height: 100%;
+
+    padding-top: 50px;
+    left: 25%;
+
+    background-color: #282828;
+
+    opacity: 0.9;
+}
+
+#Image {
+    position: relative;
+
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+
+    border-radius: 5px;
+}
+
+#button {
+    display: inline;
+    position: absolute;
+
+    text-decoration: none;
+
+    padding: 10px;
+
+    margin-top: 8px;
+
+    background-color: #fbf1c7;
+    color: #3c3836;
+}
+
+#text {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    
+    color: #ebdbb2;
+}
+
+#link {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    
+    color: #ebdbb2;
+}
+
+#logo {
+    display: inline;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    
+    margin-left: 46%;
+    margin-top: 10px;
+
+    color: #ebdbb2;
+}
+
+
